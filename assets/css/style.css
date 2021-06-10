@@ -39,13 +39,13 @@ h1, h2, h3, h4, h5, h6 {
   height: 40px;
   border-radius: 4px;
   background: #eedc3b;
-  color: #fff;
+  color: #000000;
   transition: all 0.4s;
 }
 
 .back-to-top i:hover {
-  background: #eedc3b;
-  color: #fff;
+  background: #696969;
+  color: #eedc3b;
 }
 
 /*--------------------------------------------------------------
@@ -368,13 +368,12 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 3px;
   transition: 0.5s;
   margin: 10px;
-  color: #fff;
+  color: rgb(0, 0, 0);
   background: #eedc3b;
 }
 
 #hero .btn-get-started:hover {
   background: #fff;
-  color: #eedc3b;
 }
 
 @media (min-width: 1024px) {
@@ -435,7 +434,7 @@ section {
 .about .content h3 {
   font-weight: 600;
   font-size: 26px;
-  margin-top: 5rem;
+  margin-top: 3rem;
 }
 
 .about .content ul {
@@ -503,7 +502,11 @@ section {
   position: relative;
   overflow: hidden;
   z-index: 1;
-  background: rgba(0, 0, 0, 0.6);
+  background: rgba(102, 102, 102, 0.6);
+  width: 23rem;
+  height: 14rem;
+  display: flex;
+  justify-content: center;
 }
 
 .portfolio .portfolio-wrap::before {
@@ -529,7 +532,7 @@ section {
   text-align: center;
   z-index: 3;
   transition: all ease-in-out 0.3s;
-  display: block;
+  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -633,7 +636,7 @@ section {
   float: left;
   width: 44px;
   height: 44px;
-  background: #eaf6e9;
+  background: #696969;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -662,7 +665,7 @@ section {
 
 .contact .info .email:hover i, .contact .info .address:hover i, .contact .info .phone:hover i {
   background: #eedc3b;
-  color: #fff;
+  color: rgb(0, 0, 0);
 }
 
 .contact .php-email-form {
@@ -744,13 +747,14 @@ section {
   background: #eedc3b;
   border: 0;
   padding: 10px 24px;
-  color: #fff;
+  color: rgb(0, 0, 0);
   transition: 0.4s;
   border-radius: 4px;
 }
 
 .contact .php-email-form button[type="submit"]:hover {
-  background: #eedc3b;
+  background: #696969;
+  color: #eedc3b;
 }
 
 @-webkit-keyframes animate-loading {
